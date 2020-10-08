@@ -1,9 +1,6 @@
 #!/bin/bash
 echo "Bienvenido al juego de la adivinanza de archivos de Unix"
-
-shopt -s nullglob
-numeroarchivos=(*)
-numeroarchivos=${#numeroarchivos[@]}
+numeroarchivos=$(ls -l | wc -l)
 
 function preguntar { 
 	echo "Intenta adivinar el numero de archivos en la direccion actual"
