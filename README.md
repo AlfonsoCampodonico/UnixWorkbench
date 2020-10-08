@@ -1,3 +1,3 @@
 Curso Coursera Unix Workbench
-Fecha de Creacion: Wed Oct  7 21:23:05 -03 2020
-Numero de lineas en el shell: 28
+Fecha de Creacion: Thu Oct  8 11:09:40 -03 2020
+Numero de lineas en el shell: 26
